@@ -3,7 +3,7 @@ Collection of git commands that you need to use quite often.
 
 ## Some great links:
 * Git-Branching-Basic-Branching-and-Merging: https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
-* Git-Branching-Rebasing: https://git-scm.book/en/v2/Git-Branching-Rebasing
+* Git-Branching-Rebasing: https://git-scm.com/book/en/v2/Git-Branching-Rebasing
 * Git-Tools-Stashing-and-Cleaning: https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning
 
 ## Config related commands:
