@@ -106,7 +106,7 @@ Collection of git commands that you need to use quite often.
 
   `git push origin :<old_name> <new_name>` This will delete old_name remote branch and push new_name local branch
   
-  `git checkout && git push origin -u <new_name>`This will reset the upstream branch for the new-name local branch:
+  `<switch to branch and> git push origin -u <new_name>`This will reset the upstream branch for the new-name local branch:
 
   More explanation: https://multiplestates.wordpress.com/2015/02/05/rename-a-local-and-remmote-branch-in-git/
 * Merge a branch with another:
