@@ -142,7 +142,7 @@ Collection of git commands that you need to use quite often.
 
   `git commit --amend` for bigger messages
 
-  `git commit --ammend -m <new_commit_message>`
+  `git commit --amend -m <new_commit_message>`
 
   If commits were already pushed to remote, update the remote too with below command
 
