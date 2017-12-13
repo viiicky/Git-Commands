@@ -82,7 +82,7 @@ Collection of git commands that you need to use quite often.
 
   `git checkout -b <new_branch_name> <existing_branch_name>`
 
-* Save changes in the branch locally:
+* Save changes in the branch (on local):
 
   `git commit` for bigger commit messages
 
