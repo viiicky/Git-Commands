@@ -65,7 +65,7 @@ More explanation: http://stackoverflow.com/questions/1274057/how-to-make-git-for
 ## Branch related commands:
 * View branches:
 
-`git branch`
+  `git branch`
 
 * Switch to a branch:
 
