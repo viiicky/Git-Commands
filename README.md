@@ -9,56 +9,56 @@ Collection of git commands that you need to use quite often.
 ## Config related commands:
 * View user details:
 
-`git config user.name`
+  `git config user.name`
 
-`git config user.email`
+  `git config user.email`
 * View all details:
 
-`git config --list`
+  `git config --list`
 * Set details globally:
 
-`git config --global user.name "<user_name">`
+  `git config --global user.name "<user_name">`
 
-`git config --global user.email "<email>"`
+  `git config --global user.email "<email>"`
 
 Not recommended to use global settings, better use project level settings. Helpful if you have multiple accounts.
 * Set details at project level:
 
-`git config user.name "<user_name">`
+  `git config user.name "<user_name">`
 
-`git config user.email "<email>"`
+  `git config user.email "<email>"`
 
 More explanation: http://alvinalexander.com/git/git-show-change-username-email-address
 
 ## Remote related commands:
 * Get remote repository to local:
 
-`git clone <repository_url>`
+  `git clone <repository_url>`
 
 * List all existing remotes:
 
-`git remote -v`
+  `git remote -v`
 
 * Add remote:
 
-`git remote add <remote_name> <repository_url>`
+  `git remote add <remote_name> <repository_url>`
 
-`git push -u <remote_name> <repository_url>`
+  `git push -u <remote_name> <repository_url>`
 
 * Update/Change remote url:
 
-`git remote set-url <existing_remote_name> <new_url>`
+  `git remote set-url <existing_remote_name> <new_url>`
 
 * Remove remote:
 
-`git remote remove <remote_name>`
+  `git remote remove <remote_name>`
 
 More Explanation: http://help.github.com/articles/changing-a-remote-s-url
 
 ## Ignore related commads:
 * Ignore tracked files:
 
-`git upadte-index --assume-unchanged <file>`
+  `git upadte-index --assume-unchanged <file>`
 
 More explanation: http://stackoverflow.com/questions/1274057/how-to-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore
 
@@ -69,37 +69,38 @@ More explanation: http://stackoverflow.com/questions/1274057/how-to-make-git-for
 
 * Switch to a branch:
 
-`git checkout <branch_name>`
+  `git checkout <branch_name>`
 
 * Switch to a branch igorning non-commited changes on current branch
 
-`git checkout -f <branch_name>`
+  `git checkout -f <branch_name>`
 
 More explanation: http://stackoverflow.com/questions/1304626/git-switch-branch-and-ignore-any-changes-without-committing
 * Get a remote branch on local and switch to it:
 
-`git fetch && git checkout <branch_name>`
+  `git fetch && git checkout <branch_name>`
 
 * Cut a new branch from an existing branch and switch to the newly created branch:
 
-`git checkout -b <new_branch_name> <existing_branch_name>`
+  `git checkout -b <new_branch_name> <existing_branch_name>`
 
 * Save changes in the branch locally:
 
-`git commit` for bigger commit messages
+  `git commit` for bigger commit messages
 
-`git commit -m "<commit_message>"` for smaller commit messages
+  `git commit -m "<commit_message>"` for smaller commit messages
 
 * Push changes from local branch to remote branch:
 
-If branch is created locally and it doesn't exist at remote yet: `git push -u <remote_name> <branch_name>`
+  `git push -u <remote_name> <branch_name>` if branch is created locally and it doesn't exist at remote yet,
 
-Else: `git push <remote_name> <branch_name>`
+  `git push <remote_name> <branch_name>` otherwise
+  
 * Rename branch:
 
-If on the branch that needs to be renamed: `git branch -m <new_name>`
+  `git branch -m <new_name>` if on the branch that needs to be renamed: 
 
-If on different branch: `git branch -m <old_name> <new_name>`
+  `git branch -m <old_name> <new_name>` if on different branch: 
 
 The above is enough if the branch only exists in your local, but if the branch has been pushed to remote, follow these two additional steps:
 
