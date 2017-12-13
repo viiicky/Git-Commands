@@ -17,14 +17,14 @@ Collection of git commands that you need to use quite often.
   `git config --list`
 * Set details globally:
 
-  `git config --global user.name "<user_name">`
+  `git config --global user.name "<user_name>"`
 
   `git config --global user.email "<email>"`
 
   Not recommended to use global settings, better use project level settings. Helpful if you have multiple accounts.
 * Set details at project level:
 
-  `git config user.name "<user_name">`
+  `git config user.name "<user_name>"`
 
   `git config user.email "<email>"`
 
