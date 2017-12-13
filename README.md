@@ -120,10 +120,9 @@ Collection of git commands that you need to use quite often.
 
   `git branch -d <branch_name>`
 
-* Delte local branch forecefully, if you have uncommited/unmerged changes:
-
-  `git branch -D <branch_name>`
-
+  `git branch -D <branch_name>` if you have uncommited/unmerged changes:
+  
+  More explanation: http://stackoverflow.com/questions/2003505/how-to-delete-a-git-branch-both-locally-and-remotely
 ## Revert related commands:
 * Revert to older commits:
 
