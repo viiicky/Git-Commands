@@ -43,8 +43,6 @@ Collection of git commands that you need to use quite often.
 
   `git remote add <remote_name> <repository_url>`
 
-  `git push -u <remote_name> <repository_url>`
-
 * Update/Change remote url:
 
   `git remote set-url <existing_remote_name> <new_url>`
