@@ -56,7 +56,7 @@ Collection of git commands that you need to use quite often.
 ## Ignore related commads:
 * Ignore tracked files:
 
-  `git upadte-index --assume-unchanged <file>`
+  `git update-index --assume-unchanged <file>`
 
   More explanation: http://stackoverflow.com/questions/1274057/how-to-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore
 
