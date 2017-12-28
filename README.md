@@ -135,6 +135,12 @@ Collection of git commands that you need to use quite often.
   `git reset ---hard` to go to last commit and then,
 
   `git pull <remote_name> <repository_url>`
+  
+* Unstage a file:
+
+  `git reset file1/to/unstage`
+  
+  More explanation: http://data.agaric.com/undo-git-add-remove-files-staged-git-commit
 
 * Edit a commit message which is not yet pushed
 
