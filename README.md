@@ -138,7 +138,7 @@ Collection of git commands that you need to use quite often.
   
 * Unstage a file:
 
-  `git reset file1/to/unstage`
+  `git reset file/to/unstage`
   
   More explanation: http://data.agaric.com/undo-git-add-remove-files-staged-git-commit
 
